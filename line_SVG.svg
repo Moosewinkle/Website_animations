@@ -10,12 +10,17 @@
         stroke-linecap="round"
         stroke-dasharray="1000"
         stroke-dashoffset="1000">
+
     <animate attributeName="stroke-dashoffset"
-             from="1000" to="0"
-             dur="1s"
-             begin="0s"
+             from="1000"
+             to="0"
+             dur="1.2s"
              fill="freeze"
+             calcMode="spline"
+             keySplines="0.25 0.8 0.25 1"
+             keyTimes="0;1"
              repeatCount="1" />
+
   </line>
 
 </svg>
